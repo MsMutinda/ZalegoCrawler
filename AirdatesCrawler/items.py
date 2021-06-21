@@ -8,8 +8,11 @@
 import scrapy
 
 
-class AirdatescrawlerItem(scrapy.Item):
+class CategorycrawlerItem(scrapy.Item):
     title = scrapy.Field()
 
 class CoursescrawlerItem(scrapy.Item):
     course_title = scrapy.Field()
+
+class TutorcrawlerItem(scrapy.Item):
+    tutor = scrapy.Field()
